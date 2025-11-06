@@ -1,5 +1,6 @@
 ## STEPS TO RUN
 
+- clone the project
 - pip install -r requirements.txt
 - python mesonet_cli.py --img_dir test_images
 

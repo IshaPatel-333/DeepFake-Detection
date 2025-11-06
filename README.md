@@ -1,7 +1,7 @@
 ## STEPS TO RUN
 
-step 1> pip install -r requirements.txt
-step 2> python mesonet_cli.py --img_dir test_images
+- pip install -r requirements.txt
+- python mesonet_cli.py --img_dir test_images
 
 ## Requirements
 

@@ -76,7 +76,7 @@ class Meso4(Classifier):
         y = Flatten()(x4)
         y = Dropout(0.5)(y)
         y = Dense(16)(y)
-        y = LeakyReLU(negative_slope=0.1)(y)
+        y = LeakyReLU(alpha=0.1)(y)
         y = Dropout(0.5)(y)
         y = Dense(1, activation = 'sigmoid')(y)
 
@@ -129,7 +129,7 @@ class MesoInception4(Classifier):
         y = Flatten()(x4)
         y = Dropout(0.5)(y)
         y = Dense(16)(y)
-        y = LeakyReLU(negative_slope=0.1)(y)
+        y = LeakyReLU(alpha=0.1)(y)
         y = Dropout(0.5)(y)
         y = Dense(1, activation = 'sigmoid')(y)
 

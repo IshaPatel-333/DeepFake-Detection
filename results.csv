@@ -1,0 +1,5 @@
+Filename,Pred_Prob,Pred_Class,True_Class
+df\df00204.jpg,0.041411772,0,0.0
+df\df01254.jpg,0.048693765,0,0.0
+real\real00240.jpg,0.9897476,1,1.0
+real\real00772.jpg,0.9977016,1,1.0

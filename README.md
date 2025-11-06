@@ -1,3 +1,8 @@
+## STEPS TO RUN
+
+step 1> pip install -r requirements.txt
+step 2> python mesonet_cli.py --img_dir test_images
+
 ## Requirements
 
 - Python 3.5
@@ -9,12 +14,6 @@ If you want to use the complete pipeline with the face extraction from the video
 - [Imageio](https://pypi.org/project/imageio/)
 - [FFMPEG](https://www.ffmpeg.org/download.html)
 - [face_recognition](https://github.com/ageitgey/face_recognition)
-
-## STEPS TO RUN
-
-step 1> pip install -r requirements.txt
-step 2> python mesonet_cli.py --img_dir test_images
-
 
 # MesoNet
 
